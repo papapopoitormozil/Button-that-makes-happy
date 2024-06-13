@@ -1,0 +1,56 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+}
+
+img:hover {
+    height: 180px;
+}
+
+.div-video {
+    display: none;
+}
+
+video {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.p-video {
+    font-size: 24px;
+    display: none;
+}
